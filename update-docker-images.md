@@ -7,8 +7,11 @@ So ssh to the builders with "do-ssh-key-blue-private.pem" key and use docker to 
 i.e.
 
 `docker run -dit pangea/debian:2001 bash  
+
  docker exec -it <ID_from_above> bash  
+ 
  change stuff in container and exit out  
+ 
  docker commit <ID> pangea/debian:2001`
 
 
