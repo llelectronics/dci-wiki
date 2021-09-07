@@ -6,12 +6,12 @@ images that are the actual docker images used by dci to build packages.
 So ssh to the builders with "do-ssh-key-blue-private.pem" key and use docker to edit images
 i.e.
 
-`docker run -dit pangea/debian:2001 bash  
+`docker run -dit pangea/debian:2001 bash`  
 
- docker exec -it <ID_from_above> bash  
+ `docker exec -it <ID_from_above> bash` 
  
- change stuff in container and exit out  
+ `change stuff in container and exit out` 
  
- docker commit <ID> pangea/debian:2001`
+ `docker commit <ID> pangea/debian:2001`
 
 
